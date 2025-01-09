@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Confirmation</title>
+    <style>
+        /* Basic styling for the email */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            padding: 20px;
+        }
+        .header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Order Confirmation</h2>
+    </div>
+    <div class="content">
+        <p>Dear <%= order.user %>,</p>
+        <p>Thank you for your order of the " <%= order.name%>" course.</p>
+        <p>**Order Summary:**</p>
+        <ul>
+            <li>Course Name: <%= order.name%></li>
+            <li>Price: <%= order.price%></li>
+            <li>Order ID: <%= order._id%></li>
+            <li>Order Date: <%= order.date%></li>
+        </ul>
+        <p>You will receive an email with login credentials and course access instructions shortly.</p>
+        <p>If you have any questions, please contact our support team at [Support Email].</p>
+    </div>
+    <div class="footer">
+        Best regards,<br>
+        The [LMS Name] Team
+    </div>
+</body>
+</html>

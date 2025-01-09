@@ -1,0 +1,45 @@
+{
+    "name":"MERN Stack LMS / Learning management with next132",
+    "description":"Welcome to the MERN stack Multi Vendor Ecommerce Startup series, ",
+    "price": 29,
+    "estimatedPrice": 80,
+    "tags": "MERN, LMS, next132, typescript, node js, redis",
+    "level":"Intermediate",
+    "demoUrl": "hgag231",
+    "benefits": [
+        {
+            "title": "You will be able to build a full stack multivedor Ecommerce website"
+        },
+        {
+            "title": "You will learn the best practice of MERN stack"
+        },
+        {
+            "title": "you will learn how to build a chatting app with the power of socket io and MERN stack"
+        }
+    ],
+    "prerequisites": [
+        {
+            "title": "You need basic knowledge of MERN Stack"
+        },
+        {
+            "title": "You need to complete any simple MERN project before"
+        },
+        {
+            "title": "You need Knowlege of full stack like how to create backend server how it's work and how to connect in frontend"
+        }
+    ],
+    "courseData": [
+        {
+            "videoUrl": "hydr14f",
+            "title": "Project folder structure setup",
+            "description": "Welcome to the MERN stack Multi Vendor Ecommerce Startup series, ...",
+            "videoLength": 12,
+            "links": [
+                {
+                    "title": "Source Code",
+                    "url": "https://github.com/shahriarsajeeb/Eshop-tutorial"
+                }
+            ]
+        }
+    ]
+}
